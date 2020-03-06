@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="main">
+            <h1>Steen papier schaar</h1>
+            <h1 class="score" id="p1"></h1>
+            <h1 class="score" id="p2"></h1>
+            <div class="img-container">
+                <img onclick="inputManager.setKey('Steen'); application.update();" src="img/rock.png" alt="">
+                <img onclick="inputManager.setKey('Papier'); application.update();" src="img/papier.png" alt="">
+                <img onclick="inputManager.setKey('Schaar'); application.update();" src="img/schaar.png" alt="">
+            </div>
+        <h3></h3>
+        </div>
+    <script src="script.js"></script>
+    </body>
+</html>

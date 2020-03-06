@@ -1,0 +1,9 @@
+img {
+    width: 500px;
+    height: 250px;
+}
+
+img:hover {
+    cursor: pointer;
+    background-color: yellow;
+}
